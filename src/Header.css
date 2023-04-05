@@ -1,0 +1,115 @@
+.header__logo {
+  width: 100px;
+  height: 45px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  object-fit: contain; /* kepp ratio*/
+}
+.header {
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header__searchIcon {
+  background-color: #cd9042;
+  padding: 5px;
+  height: 22px !important;
+}
+.header__search {
+  display: flex;
+  flex: 1; /* use as much space as he can*/
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  min-width: 350px;
+}
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  margin-top: 0;
+  /*-webkit-box-shadow: 0 0 0 2px hsla(83, 72%, 55%, 0.5);
+  -moz-box-shadow: 0 0 0 2px hsla(61, 65%, 51%, 0.712);
+  box-shadow: 0 0 0 2px hsla(69, 80%, 46%, 0.5);
+  */
+  border: none;
+  width: 100%;
+}
+.header__searchInput:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+.header__nav {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end; /* kepp ratio*/
+}
+.header__link {
+  text-decoration: none;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 40px;
+}
+.header__optionLineOne {
+  font-size: 10px;
+}
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.header__baksetCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header__searchdiv {
+  cursor: pointer;
+  display: flex;
+}
+.list-group {
+  display: none;
+  flex-direction: column;
+  z-index: 1;
+  list-style-type: none;
+  position: absolute;
+  border: 1px solid lightgray;
+  background-color: white;
+
+  padding-left: 0px;
+  flex: 1;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  min-width: 316px;
+}
+.header__searchresults {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+}
+
+.header__searchbutton {
+  display: none;
+}
+.header__listelement {
+  display: fill;
+  cursor: pointer;
+  padding: 2px;
+  font-weight: 500;
+}
+.header__listelement:hover {
+  background-color: #e0e0d1;
+}

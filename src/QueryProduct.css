@@ -1,0 +1,27 @@
+.queryProduct {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.queryProduct__image {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+}
+.queryProduct__info {
+  padding-left: 20px;
+}
+.queryProduct__info > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  color: #111;
+  cursor: pointer;
+}
+.queryProduct__rating {
+  display: flex;
+}
+.queryProduct__title {
+  font-size: 17px;
+  font-weight: 800;
+}
